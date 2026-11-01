@@ -1,0 +1,8 @@
+:root { --fond: #1b1d24; --texte: #e8e6df; --doux: #9aa0ad; }
+@media (prefers-color-scheme: light) { :root { --fond: #f1ede4; --texte: #24262d; --doux: #5f6573; } }
+html, body { margin: 0; background: var(--fond); color: var(--texte); font: 14px/1.4 system-ui, sans-serif; }
+header { padding: 14px 16px 6px; display: flex; gap: 16px; align-items: baseline; flex-wrap: wrap; }
+h1 { font-size: 18px; margin: 0; }
+#resume { color: var(--doux); }
+canvas { display: block; margin: 0 auto; image-rendering: pixelated; max-width: 100%; }
+#vide { color: var(--doux); padding: 0 16px; }

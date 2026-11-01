@@ -1,0 +1,8 @@
+# Secrets and local data never belong here
+.env
+.env.*
+*.key
+*.pem
+*cookies*.txt
+*.jsonl
+node_modules/
